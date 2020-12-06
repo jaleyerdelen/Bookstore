@@ -6,15 +6,13 @@
 }
 .carousel-item p {
   margin: 3px;
-  font-size:11px;
+  font-size: 11px;
   padding-left: 12px;
 }
 .card-footer p {
- color: white;
- font-family:  "Maven Pro", sans-serif;
- font-size: 13px;
- 
- 
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 13px;
 }
 .logoimages {
   margin-bottom: 23px;
@@ -24,7 +22,7 @@
 }
 .pheader {
   color: white;
-    font-weight: bold;
+  font-weight: bold;
 }
 h1 {
   color: #29415a;
@@ -80,40 +78,38 @@ h1 {
   color: #858c99;
   font-size: 13px;
 }
- .rightpage {
-   display:flex;
-flex-direction: row-reverse;
-        padding-top: 121px;
-            padding-bottom: 87px;
-  }
- 
-  .headtext {
-    color: #29415a;
-    font-size: 20px; 
-    font-family: "Maven Pro", sans-serif;
-    font-weight: bold;
-    }
-    .paragraph {
-       color: #29415a;
-    font-size: 15px; 
-    font-family: "Maven Pro", sans-serif;
-      font-weight: 500;
-          padding-right: 20px;
-          
-    }
-    .learnmore {
-       color: #ee434c;
-       text-decoration: underline;
+.rightpage {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 121px;
+  padding-bottom: 87px;
+}
+
+.headtext {
+  color: #29415a;
+  font-size: 20px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+}
+.paragraph {
+  color: #29415a;
+  font-size: 15px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 500;
+  padding-right: 20px;
+}
+.learnmore {
+  color: #ee434c;
+  text-decoration: underline;
 }
 a:hover {
   color: #ee434c;
 }
-   
 
-  .imagetext {
-    width: 100%;
-    border-radius: 15px;
-  }
+.imagetext {
+  width: 100%;
+  border-radius: 15px;
+}
 
 .account {
   color: #ee434c;
@@ -179,7 +175,7 @@ a:hover {
   }
   .maincontainter {
     margin-bottom: 49px;
-}
+  }
   .rightpage {
     padding-top: 40px;
   }
@@ -213,13 +209,13 @@ a:hover {
     right: 40px;
     padding: 0px;
   }
-   .subscription-box {
+  .subscription-box {
     display: block;
   }
   .image-class {
     display: flex;
     justify-content: center;
-        padding: 30px 16px;
+    padding: 30px 16px;
   }
   .subscribe-form {
     width: 100%;
@@ -245,22 +241,20 @@ a:hover {
   }
 }
 
-
 @media (min-width: 768px) {
   .container {
     width: 768px;
   }
-   .rightpage {
-     
-}
-.toggler-right {
-  position: absolute;
-  right: 50px;
-}
-.cardicon {
-      padding-right: 88px;
-}
-.subscribe-custom-button {
+  .rightpage {
+  }
+  .toggler-right {
+    position: absolute;
+    right: 50px;
+  }
+  .cardicon {
+    padding-right: 88px;
+  }
+  .subscribe-custom-button {
     width: 100%;
     justify-content: center;
   }
@@ -281,21 +275,17 @@ a:hover {
 @media only screen and (min-width: 980px) {
   .container {
     width: 980px;
-  
   }
-   .subscribee {
+  .subscribee {
     padding-top: 0;
   }
   .subscription-box {
     padding: 55px;
   }
 
-  
-
   @media only screen and (min-width: 1200px) {
     .container {
       width: 1200px;
     }
   }
- 
 }
