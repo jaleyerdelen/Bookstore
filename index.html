@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore</title>
+    <link rel="icon" href="images/Logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap">
     <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
@@ -16,7 +17,7 @@
     <!-- navbar -->
     <div class="container main">
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded container">
-            <a class="navbar-brand bookstore" href="#"><img src="images/Logo.png" class="icon" alt=""></a>
+            <a class="navbar-brand bookstore" href="index.html"><img src="images/Logo.png" class="icon" alt=""></a>
             <button class="navbar-toggler collapsed toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -162,9 +163,9 @@
             <div class="container carouselmargin maincarousel">
                 <div id="demo" class="carousel slide drink-carousel" data-ride="carousel">
                     <!-- The slideshow -->
-
-                    <div class="d-flex">Bestsellers</div>
-                    <div class="d-flex justify-content-end text-muted">See More</div>
+                <div class="d-flex justify-content-between">
+                   <div class="d-flex font-weight-bold">Bestsellers</div>
+                    <div class="d-flex justify-content-end text-muted">See More</div></div>
                     <div class="carousel-inner no-padding ">
                         <div class="carousel-item active drink-carousel d-flex">
                             <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2">
@@ -216,6 +217,10 @@
                
                 <a class=" carousel-control-next" href="#demo" data-slide="next">
                                 <span class="carousel-control-next-icon sp"></span>
+                                </a>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
                                 </a>
                             </div>
                         </div>
@@ -286,31 +291,37 @@
                     </div>
                 </div>
             </div>
-            <!-- Subscription Starts -->
-            <section id="subscription mr-auto">
-                <div class="container-fluid">
-                    <div class="subscription-box d-flex row">
-                        <div class="col-lg-4 col-lg-6 image-class">
-                            <img src="images/subscription.png" class="subs" alt="Subscription" />
-                        </div>
-                        <div class="col-lg-6 col-md-11 subscribee2 subscribee">
-                            <div class="subscribe-form">
-                                <p class="subscribe-header">Subscribe to our newsletter</p>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="email" class="email-form" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp" placeholder="example@email.com">
-                                    </div>
-                                    <p class="subscription-text">No spam, we promise</p>
+        <!-- Subscription Starts -->
+        <section id="subscription mr-auto">
+            <div class="container-fluid">
+                <div class="subscription-box d-flex row">
+                    <div class="col-lg-6 image-class">
+                        <img src="images/subscription.png" class="subs" alt="Subscription" />
+                    </div>
+                    <div class="col-lg-6 col-md-11 col-xl-6 subscribee2 subscribee">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                <div class="subscribe-form">
+                                    <p class="subscribe-header">Subscribe to our newsletter</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="email" class="email-form" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="example@email.com">
+                                        </div>
+                                        <p class="subscription-text">No spam, we promise</p>
+                                </div>
                             </div>
-                            <div class="subscribe-button">
-                                <button class="subscribe-custom-button btn d-flex">Subscribe</button>
+                            <div class="col-lg-3 col-sm-12 col-md-3">
+                                <div class="subscribe-button">
+                                    <button class="subscribe-custom-button btn d-flex">Subscribe</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- Subscription Ends -->
+            </div>
+        </section>
+        <!-- Subscription Ends -->
 
 
 
@@ -319,28 +330,28 @@
 
                     <div class="row">
                         <div class="col-lg-1"></div>
-                        <div class="col-lg-3 col-md-6 mb-5 col-">
+                        <div class="col-lg-3 col-md-6 mb-5 col-sm-4">
                             <img src="images/Logo.png" class="logoimages" alt="">
                             <p>San Francisco, California, US</p>
                             <p>P.O. BOX: 553204</p>
                             <p>Phone: (+1) 997 3321</p>
                             <p>Mail: admin@bookstore.com</p>
                         </div>
-                        <div class="col-lg-2 col-md-6  col- ">
+                        <div class="col-lg-2 col-md-6 ">
                             <p class="pheader">Shoopguide</p>
                             <p>About Us</p>
                             <p>Privacy Policy</p>
                             <p>Terms & Conditions</p>
                             <p>Service</p>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-">
+                        <div class="col-lg-2 col-md-6 ">
                             <p class="pheader">Account Info</p>
                             <p>My Account</p>
                             <p>My Wishlist</p>
                             <p>My Cart</p>
                             <p>Check Out</p>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-">
+                        <div class="col-lg-3 col-md-6 ">
                             <p class="pheader">Keep In Touch With Us</p>
                             <p>Facebook</p>
                             <p>Twitter</p>

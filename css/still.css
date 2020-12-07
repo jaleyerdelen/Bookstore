@@ -1,6 +1,7 @@
 .blog {
   color: #858c99 !important;
 }
+
 .maincontainter {
   margin-bottom: 125px;
 }
@@ -19,6 +20,10 @@
 }
 .card-footer {
   padding-top: 53px;
+}
+.textp {
+  color: #29415a;
+  font-family: "Maven Pro", sans-serif;
 }
 .pheader {
   color: white;
@@ -86,7 +91,7 @@ h1 {
 }
 
 .headtext {
-  color: #29415a;
+  color: #29415a !important;
   font-size: 20px;
   font-family: "Maven Pro", sans-serif;
   font-weight: bold;
@@ -126,7 +131,7 @@ a:hover {
   justify-content: center;
 }
 .subscribe-header {
-  color: 29415a;
+  color: #29415A !important;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -147,9 +152,9 @@ a:hover {
 
 .subscription-text {
   font-size: 16px;
-  line-height: 18.8px;
+  line-height: 19px;
   font-weight: 400;
-  color: 29415a;
+  color: #29415a;
   padding-top: 24px;
 }
 .subscribe-button {
@@ -160,10 +165,9 @@ a:hover {
   color: white;
   padding: 21px 46px;
   font-size: 18px;
-  line-height: 21, 15px;
+  line-height: 21px;
   font-weight: 500;
   border-radius: 8px;
-  margin-left: 48px;
 }
 @media (max-width: 767px) {
   body {
@@ -211,6 +215,7 @@ a:hover {
   }
   .subscription-box {
     display: block;
+    padding: 20px;
   }
   .image-class {
     display: flex;
@@ -223,12 +228,10 @@ a:hover {
   }
   .subscribee {
     display: block;
+    padding: 0;
   }
   .subs {
     width: 100%;
-  }
-  .subscription-box {
-    padding: 0;
   }
   .subscribe-custom-button {
     margin-left: 0;
@@ -236,12 +239,16 @@ a:hover {
     justify-content: center;
   }
   .subscribe-button {
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding-top: 50px;
     align-self: center;
   }
 }
 
 @media (min-width: 768px) {
+  body {
+    contain: content;
+  }
   .container {
     width: 768px;
   }
@@ -255,7 +262,7 @@ a:hover {
     padding-right: 88px;
   }
   .subscribe-custom-button {
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
   }
   .subscription-box {
